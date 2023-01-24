@@ -3299,6 +3299,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@custom/identity-element@workspace:apps/plugins/element-with-context":
+  version: 0.0.0-use.local
+  resolution: "@custom/identity-element@workspace:apps/plugins/element-with-context"
+  languageName: unknown
+  linkType: soft
+
 "@editorjs/delimiter@npm:^1.2.0":
   version: 1.3.0
   resolution: "@editorjs/delimiter@npm:1.3.0"
