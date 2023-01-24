@@ -60,7 +60,8 @@
 			"apps/website",
 			"apps/theme",
 			"apps/api/graphql",
-			"apps/api/headlessCMS"
+			"apps/api/headlessCMS",
+			"apps/plugins/*"
 		]
 	},
 	"scripts": {
