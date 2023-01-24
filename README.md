@@ -4,3 +4,8 @@ This example repository demonstrates the following things:
 - adding custom React Context providers to the `website` app, within the page layouts
 - controlling content rendering using `SecurityProvider`
 - accessing React Context from custom page elements
+
+
+See the outcome in this short video with commentary (make sure you unmute the video):
+
+https://user-images.githubusercontent.com/3920893/214283801-ccb52764-94f9-4933-8452-9574d4755472.mp4
