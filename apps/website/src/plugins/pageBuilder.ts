@@ -58,6 +58,8 @@ import property from "@webiny/app-page-builder/render/plugins/elementSettings/pr
  */
 import responsiveMode from "@webiny/app-page-builder/render/plugins/responsiveMode";
 
+import { identityElementPlugin } from "@custom/identity-element/render";
+
 export default [
     linkPreload(),
     apolloCacheObjectId,
@@ -83,6 +85,7 @@ export default [
     iframe(),
     pagesList(),
     imagesList(),
+    identityElementPlugin,
 
     // Page settings
     pageSettings(),
