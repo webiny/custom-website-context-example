@@ -60,6 +60,8 @@ import pageSettingsPlugins from "@webiny/app-page-builder/editor/plugins/pageSet
 // default presets for grid
 import { gridPresets } from "@webiny/app-page-builder/editor/plugins/gridPresets";
 
+import { identityElementPlugin } from "@custom/identity-element/editor";
+
 export default [
     // Elements
     document(),
@@ -83,6 +85,7 @@ export default [
     iframe(),
     codesandbox(),
     pagesList(),
+    identityElementPlugin,
     // grid presets
     ...gridPresets,
     // Element groups

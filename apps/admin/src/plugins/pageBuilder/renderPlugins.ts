@@ -37,6 +37,8 @@ import property from "@webiny/app-page-builder/render/plugins/elementSettings/pr
 // Responsive mode
 import responsiveMode from "@webiny/app-page-builder/render/plugins/responsiveMode";
 
+import { identityElementPlugin } from "@custom/identity-element/render";
+
 export default [
     // Elements
     document(),
@@ -59,6 +61,7 @@ export default [
     pinterest(),
     pagesList(),
     imagesList(),
+    identityElementPlugin,
     // Page settings
     pageSettings(),
     // Element settings
