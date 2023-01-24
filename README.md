@@ -5,6 +5,8 @@ This example repository demonstrates the following things:
 - controlling content rendering using `SecurityProvider`
 - accessing React Context from custom page elements
 
+> TIP: open the commits history, and you'll be able to see each piece of functionality added as individual commit. That way you'll better understand what change is related to a particular piece of functionality.
+
 
 See the outcome in this short video with commentary (make sure you unmute the video):
 
